@@ -20,6 +20,8 @@ demand = {"City1": 45,
 
 # Costs of each transportation path
 cost_matrix =  [
+    #cities
+    #City1 City2 City3 City4
     [8, 6, 10, 9],  # Plant1 to Cities
     [9, 12, 13, 7],  # Plant2 to Cities
     [14, 9, 16, 5]   # Plant3 to Cities
