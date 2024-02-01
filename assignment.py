@@ -3,6 +3,8 @@
 
 from pulp import *
 
+lp = LpProblem("Job Assignment Problem", LpMinimize)
+
 # Define the model
 Machine = ["M1", "M2", "M3", "M4"]
 
